@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="technicalskills.html">Technical Skills</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="education.html">Education</a></li>
+  </ul>
+</nav>
+
+<div class="center-container">
+  <div class="page-content">
+    <h1>Salesforce Automation Projects</h1>
+
+    <p>
+      This project demonstrates automation built using Salesforce Flow to streamline
+      inventory and improve sales team efficiency. The solution includes record updates and automated notifications.
+    <br><br>
+    In this automation, the stock quantity is 75. When an order is placed for a quantity of 10 and the status of the order is "confirmed", the stock quantity changes to 65. This helps keep track of the inventory. 
+    </p>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <video controls width="600">
+        <source src="Stock qty change after order confirmation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+     <p>
+    In this automation, when the stock quantity falls below the reorder threshold, the status changes to Low Stock.  
+    </p>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <video controls width="600">
+        <source src="Stock status change to low stock.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+     <p>
+    In this automation, when the stock quantity is 0, the status changes to Out of Stock.  
+    </p>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <video controls width="600">
+        <source src="Stock status change to out of stock.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+     <p>
+    In this automation, when the stock has expired, the product is marked inactive, status changes to Out of Stock and the quantity changes to 0. This ensures that expired products are not on the inventory and are not available for the customers to purchase. 
+<br> <br>
+
+This is an example of a schedule-triggered flow. These are time-based automations that launch at a specific time or frequency. They run without user interaction. 
+    </p>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <video controls width="600">
+        <source src="Inactivate expired products.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+     <p>
+    In this automation, in an order, depending on the delivery status, the order status changes.  
+    </p>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <video controls width="600">
+        <source src="Order Status Change.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+     <p>
+    This is an example of a validation rule. If the status of the product is changed to "In Stock", then expiry date field cannot be blank. 
+    </p>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <video controls width="600">
+        <source src="Validation Rule.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+     <p>
+    These are the sales and inventory dashboards. The management can make informed decisions by looking at the data here.
+    </p>
+
+    <!-- Video Section -->
+    <div class="video-container">
+      <video controls width="600">
+        <source src="Dashboards.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </div>
+  
+</div>
+</body>
+</html>

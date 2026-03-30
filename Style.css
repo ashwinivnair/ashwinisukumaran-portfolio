@@ -1,0 +1,222 @@
+/* Background */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Background 1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  height: 200vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+/* Main Title */
+.content {
+  text-align: center;
+  padding-top: 40px;
+}
+
+h1 {
+  font-size: 25px;
+  color: black;
+  margin: 0;
+}
+/* Section Styling */
+section {
+  padding: 80px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.section-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+h5 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: white;
+}
+section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.page-content {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+/* Center entire page content */
+.center-container {
+  display: flex;
+  justify-content: center;   /* Horizontal center */
+  align-items: center;       /* Vertical center */
+  height: 90vh;              /* Full screen height minus navbar */
+  text-align: left;
+}
+
+/* Content box */
+.page-content {
+  max-width: 1000px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+/* Education layout */
+.education-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Eductaion row layout */
+.education-row {
+  display: flex;
+  justify-content: center;  /* Pushes one left, one right */
+  align-items: center;
+  margin-top: 5px;
+}
+/* Certifications row layout */
+.certifications-row {
+  display: flex;
+  justify-content: space-between;  /* Pushes one left, one right */
+  align-items: center;
+  margin-top: 1px;
+}
+
+/* Individual certification */
+.cert-item {
+  text-align: center;
+  width: 100%;
+}
+
+/* Logo styling */
+.edu-logo {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Video styling */
+.video-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Home Page */
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-width: 1100px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.home-text {
+  flex: 1;
+  text-align: left;
+}
+.home-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.trailhead-section {
+  margin-top: 40px;
+}
+
+.trailhead-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.95);
+  border-radius: 10px;
+}
+
+.trailhead-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.trailhead-text {
+  text-align: left;
+}
+
+.trailhead-text h2 {
+  margin-bottom: 10px;
+}
+
+.about-text {
+  flex: 1;
+  text-align: center;
+}
+.about-image img {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
